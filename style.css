@@ -1,0 +1,27 @@
+
+/* Style minimal pour test */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+#hero {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('img/hero-marc-olivier.jpg') center center/cover no-repeat;
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.btn-get-started {
+  background: #005aa7;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.btn-get-started:hover {
+  background: #003e75;
+}
